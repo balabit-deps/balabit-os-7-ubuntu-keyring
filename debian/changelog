@@ -1,3 +1,13 @@
+ubuntu-keyring (2018.09.18.1~18.04.0) bionic; urgency=medium
+
+  * keyrings/ubuntu-keyring-2018-archive.gpg,
+    keyrings/ubuntu-archive-keyring.gpg: add new archive signing key.
+  * Improve README.Source with upgrade/change instructions. 
+  * Validate that all shipped fragments are signed.
+  * LP: #1798073
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Tue, 18 Sep 2018 17:03:46 +0200
+
 ubuntu-keyring (2018.02.28) bionic; urgency=medium
 
   * Drop Depends|Recommends on gpgv/gpg, as the package is purely static
